@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hangxin.U8Interface.Web</name>
+    </assembly>
+    <members>
+        <member name="M:Hangxin.U8Interface.Web.Controllers.TestController.GetInfo">
+            <summary>
+            获取测试信息
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Hangxin.U8Interface.Web.Controllers.v1.AuthController.AccessToken(Hangxin.U8Interface.Application.JWTService.JsonWebToken)">
+            <summary>
+            获取AccessToken
+            </summary> 
+        </member>
+        <member name="M:Hangxin.U8Interface.Web.Controllers.v1.U8InterfaceController.Persons(Hangxin.U8Interface.Application.PersonService.PersonsQuery)">
+            <summary>
+            人员档案
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Hangxin.U8Interface.Web.Controllers.v1.U8InterfaceController.Departments(Hangxin.U8Interface.Application.DepartmentService.DepartmentsQuery)">
+            <summary>
+            部门档案
+            </summary>  
+        </member>
+        <member name="M:Hangxin.U8Interface.Web.Controllers.v1.U8InterfaceController.Customers(Hangxin.U8Interface.Application.CustomerService.CustomersQuery)">
+            <summary>
+            客户档案
+            </summary>  
+        </member>
+        <member name="M:Hangxin.U8Interface.Web.Controllers.v1.U8InterfaceController.Vendors(Hangxin.U8Interface.Application.VendorService.VendorsQuery)">
+            <summary>
+            供应商档案
+            </summary>  
+        </member>
+        <member name="M:Hangxin.U8Interface.Web.Controllers.v1.U8InterfaceController.Codes(Hangxin.U8Interface.Application.CodeService.CodesQuery)">
+            <summary>
+            科目档案
+            </summary>  
+        </member>
+        <member name="M:Hangxin.U8Interface.Web.Controllers.v1.U8InterfaceController.Fitems(Hangxin.U8Interface.Application.FitemService.FitemsQuery)">
+            <summary>
+            项目分类档案
+            </summary>  
+        </member>
+        <member name="M:Hangxin.U8Interface.Web.Controllers.v1.U8InterfaceController.Items(Hangxin.U8Interface.Application.ItemService.ItemsQuery)">
+            <summary>
+            项目档案
+            </summary> 
+        </member>
+        <member name="M:Hangxin.U8Interface.Web.Controllers.v1.U8InterfaceController.ItemsPageList(Hangxin.U8Interface.Application.ItemService.ItemsPagedResult)">
+            <summary>
+            项目档案分页
+            </summary> 
+        </member>
+        <member name="M:Hangxin.U8Interface.Web.Controllers.v1.U8InterfaceController.GlAccvouchs(Hangxin.U8Interface.Application.GlAccvouchService.GlAccvouchsQuery)">
+            <summary>
+            查询凭证
+            </summary> 
+        </member>
+        <member name="M:Hangxin.U8Interface.Web.Controllers.v1.U8InterfaceController.GlAccvouch(Hangxin.U8Interface.Application.GlAccvouchService.GlAccvouchsInsert)">
+            <summary>
+            生成凭证
+            </summary> 
+        </member>
+    </members>
+</doc>
